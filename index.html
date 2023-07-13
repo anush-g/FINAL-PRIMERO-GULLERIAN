@@ -1,0 +1,624 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=a, initial-scale=1.0">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="assets/style.css" rel="stylesheet" type="text/css" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-*****" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+      <title>Anush Gullerian</title>
+  </head>
+  <body>
+    <section id="header" >
+      <nav >
+
+        <div class="menu-container">
+          <button class="menu-button">
+            <span class="menu-bar"></span>
+            <span class="menu-bar"></span>
+            <span class="menu-bar"></span>
+          </button>
+        </div>
+            
+        <div class="navbar navbar-container">
+          <ul >
+                <li><a href="#"><img src="assets/img/CALÍOPE.png" alt="Logo de GoClean" height="30px"></a></li>
+                <li><a href="#header" id="">Inicio</a></li>
+                <li><a href="#carousel">Recetas</a></li>
+                <li><a href="#nl">Suscribirse</a></li>
+                <li><a href="#cta">Recetarios</a></li>
+          </ul>
+        </div>
+
+      </nav>
+
+    <!--
+    IDEAS PARA EL HERO:
+    opcion A: El hero pueden ser imagenes que se van pasando solas cada dos segundos. 
+              tiene que haber un boton con algun call to action.
+    opcion B: En vez de la frase que puse, puedo poner "Ultimas recetas" y que vaya mostrando las ult recetas 
+              con imagenes clickeables que cambian cada algunos segundos.
+              Si hiciera esto ultimo, la card-grid puede ser sobre recetas en general (no las mas recientes) o sobre
+              categorias de recetas: postres, pastas, platos rapidos, etc. y q sean clickeables
+    -->
+      <section id="hero">
+        <div class="hero-content">
+          <h3>Recetas con flores comestibles</h3>
+          <h1>Delicia y belleza en cada plato</h1>
+          <a href="#carousel"><img id="chevron" src="assets/img/chevron.svg" alt="Ir abajo"></a>
+
+
+        </div>
+      </section>
+    </section>
+
+
+    <section id="carousel">
+
+      <h3 class="carousel-title">Recetas del mes</h3>
+
+      <div id="carouselInContext">
+        <div class="carouselContainer">
+
+          <div class="carousel">
+
+            <div class="item a">
+              <img src="assets/img/blueberry-tart.jpg" alt="Tarta de Arándanos">
+              <a href="#section1" class="item-content underline-effect">Tarta de arándanos</a>
+            </div>
+            <div class="item b">
+              <img src="assets/img/ravioli-al-cebollino.png" alt="Ravioli al Cebollino">
+              <a href="#section2" class="item-content underline-effect">Ravioli al Cebollino</a>
+            </div>
+            <div class="item c">
+              <img src="assets/img/Gelatina Japonesa.jpg" alt="Gelatina Japonesa">
+              <a href="#section3" class="item-content underline-effect">Gelatina Japonesa</a>
+            </div>
+            <div class="item d">
+              <img src="assets/img/spring-roll.jpg" alt="Arrolladito Primavera">
+              <a href="#section4" class="item-content underline-effect">Arrolladito Primavera</a>
+            </div>
+            <div class="item e">
+              <img src="assets/img/panqueques-ala-fleur.png" alt="Panqueques a la Fleur">
+              <a href="#section5" class="item-content underline-effect">Panqueques a la Fleur</a>
+            </div>
+            <div class="item f">
+              <img src="assets/img/Langosta.jpg" alt="Langosta">
+              <a href="#section6" class="item-content underline-effect">Langosta</a>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="controls">
+          <button class="prev"><i class="fas fa-chevron-left"></i></button>
+          <div class="dots">
+            <div class="carousel-dots">
+              <div class="dot" data-index="0"></div>
+              <div class="dot" data-index="1"></div>
+              <div class="dot" data-index="2"></div>
+              <div class="dot" data-index="3"></div>
+              <div class="dot" data-index="4"></div>
+              <div class="dot" data-index="5"></div>
+            </div>
+          </div>
+          </div>
+          <button class="next"><i class="fas fa-chevron-right"></i></button>
+        </div>
+        
+
+    </section>
+
+    <section id="section1" class="hidden-section">
+      <div class="recipeContainer">
+    
+        <div class="header">
+          <h3>Tarta de Arándanos con Flores Comestibles</h1>
+          <a href="#carousel" class="close-button"><i class="fas fa-times"></i></a>
+        </div>
+        <div class="recipe">
+  
+          <img class="ingredient-image" src="assets/img/blueberry-tart.jpg" alt="Tarta de Arándanos">
+    
+         <section class="nutritional-table">
+          <table>
+            <tr>
+              <th>Nutriente</th>
+              <th>Cantidad</th>
+            </tr>
+            <tr>
+              <td>Calorías</td>
+              <td>250 kcal</td>
+            </tr>
+            <tr>
+              <td>Proteínas</td>
+              <td>5 g</td>
+            </tr>
+            <tr>
+              <td>Grasas</td>
+              <td>12 g</td>
+            </tr>
+            <tr>
+              <td>Carbohidratos</td>
+              <td>30 g</td>
+            </tr>
+            <tr>
+              <td>Fibra</td>
+              <td>4 g</td>
+            </tr>
+          </table>
+        </section>
+
+
+        </div>
+    
+        <div class="recipe">
+
+          <section class="ingredient-section">
+            <h2>Ingredientes:</h2>
+            <ul class="ingredients">
+              <li>200 g de harina</li>
+              <li>100 g de mantequilla</li>
+              <li>50 g de azúcar</li>
+              <li>1 huevo</li>
+              <li>250 g de arándanos</li>
+              <li>Flores comestibles para decorar</li>
+            </ul>
+          </section>
+
+          <section class="instructions">
+            <h2>Instrucciones:</h2>
+            <ol>
+              <li><strong>Mezcla la harina, la mantequilla, el azúcar y el huevo</strong> hasta obtener una masa homogénea.</li>
+              <li><strong>Extiende la masa en un molde para tarta</strong> y coloca los arándanos encima.</li>
+              <li><strong>Hornea la tarta a 180°C durante 30-35 minutos.</strong></li>
+              <li><strong>Déjala enfriar y decórala con las flores comestibles.</strong></li>
+            </ol>
+          </section>
+  
+        </div>
+    
+      </div>
+    </section>
+
+    <section id="section2" class="hidden-section">
+      <div class="recipeContainer">
+
+        <div class="header">
+          <h3>Ravioli al Cebollino</h1>
+          <a href="#carousel" class="close-button"><i class="fas fa-times"></i></a>
+        </div>
+        <div class="recipe">
+  
+          <img class="ingredient-image" src="assets/img/ravioli-al-cebollino.png" alt="Ravioli al Cebollino">
+    
+         <section class="nutritional-table">
+          <table>
+            <tr>
+              <th>Nutriente</th>
+              <th>Cantidad</th>
+            </tr>
+            <tr>
+              <td>Calorías</td>
+              <td>250 kcal</td>
+            </tr>
+            <tr>
+              <td>Proteínas</td>
+              <td>5 g</td>
+            </tr>
+            <tr>
+              <td>Grasas</td>
+              <td>12 g</td>
+            </tr>
+            <tr>
+              <td>Carbohidratos</td>
+              <td>30 g</td>
+            </tr>
+            <tr>
+              <td>Fibra</td>
+              <td>4 g</td>
+            </tr>
+          </table>
+        </section>
+
+
+        </div>
+    
+        <div class="recipe">
+
+          <section class="ingredient-section">
+            <h2>Ingredientes:</h2>
+            <ul class="ingredients">
+              <li>200 g de harina</li>
+              <li>100 g de mantequilla</li>
+              <li>50 g de azúcar</li>
+              <li>1 huevo</li>
+              <li>250 g de arándanos</li>
+              <li>Flores comestibles para decorar</li>
+            </ul>
+          </section>
+
+          <section class="instructions">
+            <h2>Instrucciones:</h2>
+            <ol>
+              <li><strong>Mezcla la harina, la mantequilla, el azúcar y el huevo</strong> hasta obtener una masa homogénea.</li>
+              <li><strong>Extiende la masa en un molde para tarta</strong> y coloca los arándanos encima.</li>
+              <li><strong>Hornea la tarta a 180°C durante 30-35 minutos.</strong></li>
+              <li><strong>Déjala enfriar y decórala con las flores comestibles.</strong></li>
+            </ol>
+          </section>
+  
+        </div>
+    
+      </div>
+    </section>
+    
+    <section id="section3" class="hidden-section">
+      <div class="recipeContainer">
+
+        <div class="header">
+          <h3>Gelatina Japonesa</h1>
+            <a href="#carousel" class="close-button"><i class="fas fa-times"></i></a>
+        </div>
+        <div class="recipe">
+  
+          <img class="ingredient-image" src="assets/img/Gelatina Japonesa.jpg" alt="Gelatina Japonesa">
+    
+         <section class="nutritional-table">
+          <table>
+            <tr>
+              <th>Nutriente</th>
+              <th>Cantidad</th>
+            </tr>
+            <tr>
+              <td>Calorías</td>
+              <td>250 kcal</td>
+            </tr>
+            <tr>
+              <td>Proteínas</td>
+              <td>5 g</td>
+            </tr>
+            <tr>
+              <td>Grasas</td>
+              <td>12 g</td>
+            </tr>
+            <tr>
+              <td>Carbohidratos</td>
+              <td>30 g</td>
+            </tr>
+            <tr>
+              <td>Fibra</td>
+              <td>4 g</td>
+            </tr>
+          </table>
+        </section>
+
+
+        </div>
+    
+        <div class="recipe">
+
+          <section class="ingredient-section">
+            <h2>Ingredientes:</h2>
+            <ul class="ingredients">
+              <li>200 g de harina</li>
+              <li>100 g de mantequilla</li>
+              <li>50 g de azúcar</li>
+              <li>1 huevo</li>
+              <li>250 g de arándanos</li>
+              <li>Flores comestibles para decorar</li>
+            </ul>
+          </section>
+
+          <section class="instructions">
+            <h2>Instrucciones:</h2>
+            <ol>
+              <li><strong>Mezcla la harina, la mantequilla, el azúcar y el huevo</strong> hasta obtener una masa homogénea.</li>
+              <li><strong>Extiende la masa en un molde para tarta</strong> y coloca los arándanos encima.</li>
+              <li><strong>Hornea la tarta a 180°C durante 30-35 minutos.</strong></li>
+              <li><strong>Déjala enfriar y decórala con las flores comestibles.</strong></li>
+            </ol>
+          </section>
+  
+        </div>
+    
+      </div>
+    </section>
+
+    <section id="section4" class="hidden-section">
+      <div class="recipeContainer">
+    
+        <div class="header">
+          <h3>Arrolladito Primavera</h1>
+            <a href="#carousel" class="close-button"><i class="fas fa-times"></i></a>
+        </div>
+        <div class="recipe">
+  
+          <img class="ingredient-image" src="assets/img/spring-roll.jpg" alt="Arrolladito Primavera">
+    
+         <section class="nutritional-table">
+          <table>
+            <tr>
+              <th>Nutriente</th>
+              <th>Cantidad</th>
+            </tr>
+            <tr>
+              <td>Calorías</td>
+              <td>250 kcal</td>
+            </tr>
+            <tr>
+              <td>Proteínas</td>
+              <td>5 g</td>
+            </tr>
+            <tr>
+              <td>Grasas</td>
+              <td>12 g</td>
+            </tr>
+            <tr>
+              <td>Carbohidratos</td>
+              <td>30 g</td>
+            </tr>
+            <tr>
+              <td>Fibra</td>
+              <td>4 g</td>
+            </tr>
+          </table>
+        </section>
+
+
+        </div>
+    
+        <div class="recipe">
+
+          <section class="ingredient-section">
+            <h2>Ingredientes:</h2>
+            <ul class="ingredients">
+              <li>200 g de harina</li>
+              <li>100 g de mantequilla</li>
+              <li>50 g de azúcar</li>
+              <li>1 huevo</li>
+              <li>250 g de arándanos</li>
+              <li>Flores comestibles para decorar</li>
+            </ul>
+          </section>
+
+          <section class="instructions">
+            <h2>Instrucciones:</h2>
+            <ol>
+              <li><strong>Mezcla la harina, la mantequilla, el azúcar y el huevo</strong> hasta obtener una masa homogénea.</li>
+              <li><strong>Extiende la masa en un molde para tarta</strong> y coloca los arándanos encima.</li>
+              <li><strong>Hornea la tarta a 180°C durante 30-35 minutos.</strong></li>
+              <li><strong>Déjala enfriar y decórala con las flores comestibles.</strong></li>
+            </ol>
+          </section>
+  
+        </div>
+    
+      </div>
+    </section>
+
+    <section id="section5" class="hidden-section">
+      <div class="recipeContainer">
+    
+        <div class="header">
+          <h3>Panqueques a la Fleur</h1>
+            <a href="#carousel" class="close-button"><i class="fas fa-times"></i></a>
+        </div>
+        <div class="recipe">
+  
+          <img class="ingredient-image" src="assets/img/panqueques-ala-fleur.png" alt="Panqueques a la Fleur">
+    
+         <section class="nutritional-table">
+          <table>
+            <tr>
+              <th>Nutriente</th>
+              <th>Cantidad</th>
+            </tr>
+            <tr>
+              <td>Calorías</td>
+              <td>250 kcal</td>
+            </tr>
+            <tr>
+              <td>Proteínas</td>
+              <td>5 g</td>
+            </tr>
+            <tr>
+              <td>Grasas</td>
+              <td>12 g</td>
+            </tr>
+            <tr>
+              <td>Carbohidratos</td>
+              <td>30 g</td>
+            </tr>
+            <tr>
+              <td>Fibra</td>
+              <td>4 g</td>
+            </tr>
+          </table>
+        </section>
+
+
+        </div>
+    
+        <div class="recipe">
+
+          <section class="ingredient-section">
+            <h2>Ingredientes:</h2>
+            <ul class="ingredients">
+              <li>200 g de harina</li>
+              <li>100 g de mantequilla</li>
+              <li>50 g de azúcar</li>
+              <li>1 huevo</li>
+              <li>250 g de arándanos</li>
+              <li>Flores comestibles para decorar</li>
+            </ul>
+          </section>
+
+          <section class="instructions">
+            <h2>Instrucciones:</h2>
+            <ol>
+              <li><strong>Mezcla la harina, la mantequilla, el azúcar y el huevo</strong> hasta obtener una masa homogénea.</li>
+              <li><strong>Extiende la masa en un molde para tarta</strong> y coloca los arándanos encima.</li>
+              <li><strong>Hornea la tarta a 180°C durante 30-35 minutos.</strong></li>
+              <li><strong>Déjala enfriar y decórala con las flores comestibles.</strong></li>
+            </ol>
+          </section>
+  
+        </div>
+    
+      </div>
+    </section>
+
+    <section id="section6" class="hidden-section">
+      <div class="recipeContainer">
+    
+        <div class="header">
+          <h3>Langosta</h1>
+            <a href="#carousel" class="close-button"><i class="fas fa-times"></i></a>
+        </div>
+        <div class="recipe">
+  
+          <img class="ingredient-image" src="assets/img/Langosta.jpg" alt="Langosta">
+    
+         <section class="nutritional-table">
+          <table>
+            <tr>
+              <th>Nutriente</th>
+              <th>Cantidad</th>
+            </tr>
+            <tr>
+              <td>Calorías</td>
+              <td>250 kcal</td>
+            </tr>
+            <tr>
+              <td>Proteínas</td>
+              <td>5 g</td>
+            </tr>
+            <tr>
+              <td>Grasas</td>
+              <td>12 g</td>
+            </tr>
+            <tr>
+              <td>Carbohidratos</td>
+              <td>30 g</td>
+            </tr>
+            <tr>
+              <td>Fibra</td>
+              <td>4 g</td>
+            </tr>
+          </table>
+        </section>
+
+
+        </div>
+    
+        <div class="recipe">
+
+          <section class="ingredient-section">
+            <h2>Ingredientes:</h2>
+            <ul class="ingredients">
+              <li>200 g de harina</li>
+              <li>100 g de mantequilla</li>
+              <li>50 g de azúcar</li>
+              <li>1 huevo</li>
+              <li>250 g de arándanos</li>
+              <li>Flores comestibles para decorar</li>
+            </ul>
+          </section>
+
+          <section class="instructions">
+            <h2>Instrucciones:</h2>
+            <ol>
+              <li><strong>Mezcla la harina, la mantequilla, el azúcar y el huevo</strong> hasta obtener una masa homogénea.</li>
+              <li><strong>Extiende la masa en un molde para tarta</strong> y coloca los arándanos encima.</li>
+              <li><strong>Hornea la tarta a 180°C durante 30-35 minutos.</strong></li>
+              <li><strong>Déjala enfriar y decórala con las flores comestibles.</strong></li>
+            </ol>
+          </section>
+  
+        </div>
+    
+      </div>
+    </section>
+
+    
+        <section id="nl" class="video-section">
+    
+              <div class="nl-content">
+                <h3>¡Nuevas recetas <em>semana a semana</em>!</h3>
+                <p>Para recibir las mejores recetas, consejos y <strong>descuentos</strong> hacé click en el botón y suscribite a nuestro Newsletter.</p>
+                <form action="#" method="post">
+                  <input type="email" name="email" placeholder="Ingresá tu correo electrónico" required>
+                  <br>
+                  <button class="btn" type="submit">Sucribirme ahora</button>
+                </form>
+              </div>
+              <img class="nl-content" id="gif-nl" src="assets/img/gif nl.gif" alt="Recetas">
+
+              
+            <video autoplay muted loop class="video-background">
+              <source src="assets/img/video flores.mp4" type="video/mp4">
+            </video>
+            
+        </section>
+
+        <section id="cta">
+
+              <div class="cta-content">
+                <h3>Llevate un recetario con <br><em>más de 100 recetas originales</em></h3>
+                <p>Nuestro recetario impreso contiene una selección de nuestras <strong>mejores recetas</strong>, además de consejos y trucos útiles para cocinar comidas saludables y deliciosas con flores.
+                <br><br>Además, de bonus tenés toda la <strong>información nutricional</strong> de cada flor, en qué cantidad conviene usarlas, qué sabor aportan y para qué tipo de comidas. A un <strong>precio súper accesible</strong>, este recetario es imperdible</p>
+                <button class="btn" id="cta-btn">Comprar recetario</button>
+              </div>
+              <img class="cta-content" id="img-recetario" src="assets/img/recetario clarito.jpg" alt="Recetario">
+
+        </section>
+
+
+        <footer class="footer">
+          <div class="footer-top">
+            <section>
+              <h4>Explorar</h4>
+              <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Recetas</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contacto</a></li>
+              </ul>
+            </section>
+            <section>
+              <h4>Suscribirse</h4>
+              <p>Recibí nuestras últimas recetas directamente en tu bandeja de entrada.</p>
+              <form class="subscribe-form">
+                <input type="email" placeholder="Tu correo electrónico" required>
+                <button type="submit">Suscribirse</button>
+              </form>
+            </section>
+            <section>
+              <h4>Seguinos</h4>
+              <div class="social-media-icons">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+              </div>
+            </section>
+          </div>
+          <div class="footer-bottom">
+            <p>&copy; 2023 Calíope. Todos los derechos reservados.</p>
+          </div>
+        </footer>
+        
+        
+
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script src="assets/js.js"></script>
+      
+      
+
+  </body>
+  </html>
